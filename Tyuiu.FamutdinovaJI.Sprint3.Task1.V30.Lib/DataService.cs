@@ -5,7 +5,7 @@ namespace Tyuiu.FamutdinovaJI.Sprint3.Task1.V30.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
-            double sumSeries = 1;
+            double sumSeries = 0;
             int i;
             for ( i = startValue; i <= stopValue; i++)
             {
