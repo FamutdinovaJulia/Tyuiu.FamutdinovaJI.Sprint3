@@ -6,14 +6,24 @@ namespace Tyuiu.FamutdinovaJI.Sprint3.Task3.V12.Lib
         public int GetMaxCharCount(string value, char item)
         {
             int count = 0;
+            int max = -1;
             foreach (char chr in value)
             {
                 if (chr == item)
                 {
                     count++;
+                    if (count > max)
+                    {
+                        max = count;
+                    }
                 }
+                else
+                {
+                    count = 0;
+                }    
+                
             }
-            return count;
+            return max;
         }
     }
 }

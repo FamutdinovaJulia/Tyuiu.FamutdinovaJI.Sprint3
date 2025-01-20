@@ -13,8 +13,8 @@ namespace Tyuiu.FamutdinovaJI.Sprint3.Task3.V12
             string value = "bkkrk ckkkcs ksr";
             char chr = 'k';
 
-            Console.WriteLine("* Переменная Х = " + value);
-            Console.WriteLine("* Старт шага = " + chr);
+            Console.WriteLine("* Исходная строка: " + value);
+            Console.WriteLine("* Искомый символ: " + chr);
 
             double res = ds.GetMaxCharCount(value, chr);
 
@@ -22,10 +22,9 @@ namespace Tyuiu.FamutdinovaJI.Sprint3.Task3.V12
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Произведение ряда = " + res);
+            Console.WriteLine("Максимльное кол-во = " + res);
 
             Console.ReadLine();
         }
-    }
     }
 }
