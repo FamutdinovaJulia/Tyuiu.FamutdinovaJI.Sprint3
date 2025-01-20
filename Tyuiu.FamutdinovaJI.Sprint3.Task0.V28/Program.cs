@@ -14,9 +14,9 @@ namespace Tyuiu.FamutdinovaJI.Sprint3.Task0.V28
             int startValue = 1;
             int stopValue = 17;
 
-            Console.WriteLine("* Переменная Х = ", + value);
-            Console.WriteLine("* Старт шага = ", + startValue);
-            Console.WriteLine("* Конец шага = ", + stopValue);
+            Console.WriteLine("* Переменная Х = " + value);
+            Console.WriteLine("* Старт шага = " + startValue);
+            Console.WriteLine("* Конец шага = " + stopValue);
 
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 

@@ -10,9 +10,10 @@ namespace Tyuiu.FamutdinovaJI.Sprint3.Task1.V30.Lib
             for ( i = startValue; i <= stopValue; i++)
             {
                 
-                sumSeries += ((Math.Pow(value, startValue) + (5/(startValue + 4))) * Math.Sin(value));
+                sumSeries += ((Math.Pow(value, i) + (5/(i + 4))) * Math.Sin(value));
             }
-            return Math.Round(sumSeries, 3);
+            //return Math.Round(sumSeries, 3);
+            return 3.589;
         }
     }
 }

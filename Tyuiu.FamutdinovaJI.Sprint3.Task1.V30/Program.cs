@@ -14,9 +14,9 @@ namespace Tyuiu.FamutdinovaJI.Sprint3.Task1.V30
             int startValue = 1;
             int stopValue = 12;
 
-            Console.WriteLine("* Переменная Х = ", +value);
-            Console.WriteLine("* Старт шага = ", +startValue);
-            Console.WriteLine("* Конец шага = ", +stopValue);
+            Console.WriteLine("Переменная Х = " + value);
+            Console.WriteLine("Старт шага = " + startValue);
+            Console.WriteLine("Конец шага = " + stopValue);
 
             double res = ds.GetSumSeries(value, startValue, stopValue);
 
@@ -27,6 +27,7 @@ namespace Tyuiu.FamutdinovaJI.Sprint3.Task1.V30
             Console.WriteLine("Сумма ряда = " + res);
 
             Console.ReadLine();
+
         }
     }
 }
