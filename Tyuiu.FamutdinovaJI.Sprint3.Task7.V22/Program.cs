@@ -30,7 +30,7 @@ namespace Tyuiu.FamutdinovaJI.Sprint3.Task7.V22
             Console.WriteLine("+---------------+---------------+");
             Console.WriteLine("|       X       |      F(x)     |");
             Console.WriteLine("+---------------+---------------+");
-                             //  | {0,5:d}      |  {1,5:F2}    |
+                   
             for (int i = 0; i < len; i++)
             {
                 Console.WriteLine("|   {0,5:d}       |     {1,5:F2}     |", startValue, valueArrey[1]);
